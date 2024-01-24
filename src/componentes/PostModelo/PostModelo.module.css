@@ -1,10 +1,12 @@
 .postModeloContainer {
     color: var(--cor-fonte-post);
     position: relative;
+    display: block;
 }
 
 .fotoCapa,
 .titulo {
+    max-width: 100%;
     height: 204px;
 }
 
@@ -33,6 +35,7 @@
 @media (max-width: 744px) {
     .postConteudoContainer {
         padding: 2rem 1.5rem 1.5rem;
+        max-width: 100%;
     }
 }
 
@@ -41,14 +44,19 @@
     .fotoCapa,
     .titulo {
         height: 104px;
+        max-width: 100%;
+        display: flex;
     }
 
     .titulo {
         padding: 0 1rem;
         font-size: 2rem;
+        display: flex;
     }
 
     .postConteudoContainer {
         padding: 2rem 1rem 1.5rem;
+        max-width: 100%;
+        display: flex;
     }
 }
