@@ -32,7 +32,8 @@
     margin: 0 auto;
     justify-content: center;
     align-items: flex-start;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
+
 }
 
 .post-markdown-container ul {
