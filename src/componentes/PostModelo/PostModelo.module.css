@@ -24,7 +24,6 @@
     font-family: var(--fonte-secundaria);
     padding: 0 7.5rem;
     font-size: 4rem;
-    display: flex;
     align-items: center;
 }
 
@@ -45,18 +44,17 @@
     .titulo {
         height: 104px;
         max-width: 100%;
-        display: flex;
+     
     }
 
     .titulo {
         padding: 0 1rem;
         font-size: 2rem;
-        display: flex;
+       
     }
 
     .postConteudoContainer {
         padding: 2rem 1rem 1.5rem;
         max-width: 100%;
-        display: flex;
     }
 }
